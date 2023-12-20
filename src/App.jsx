@@ -1,6 +1,6 @@
 import Header from './components/Header'
 import Home from './components/Home'
-import viteLogo from '/vite.svg' //this is from public folder
+import MyExperience from './components/MyExperience'
 
 function App() {
 
@@ -10,6 +10,7 @@ function App() {
       <main className='mx-3'>
         <div className="container-fluid">
           <Home />
+          <MyExperience />
         </div>
       </main>
     </>
