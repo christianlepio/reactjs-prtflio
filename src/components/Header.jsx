@@ -10,7 +10,7 @@ const Header = () => {
                         </div>
                         <div className='d-flex justify-content-end'>
                             <i className='bi bi-brightness-low-fill text-warning lh-lg fs-6 mx-2 align-self-center'></i> &nbsp;
-                            <div className='form-check form-switch align-self-center'>                    
+                            <div className='form-check form-switch'>                    
                                 <input 
                                     className="toggleBtn form-check-input"
                                     type="checkbox" 

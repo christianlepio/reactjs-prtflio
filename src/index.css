@@ -31,3 +31,18 @@ header .brnd {
   width: 25em;
   height: 25em;
 }
+
+.experience .zustand {
+  height: 3.1em;
+}
+
+.experience .php {
+  height: 2.2em;
+}
+
+.experience .abap {
+  height: 3em;
+}
+.experience .netb {
+  height: 2.6em;
+}

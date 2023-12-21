@@ -2,7 +2,7 @@ import gradpic1 from '/images/gradpic1.jpg'
 
 const Home = () => {
     return (
-        <section className="home">
+        <section className="home border">
             <div className="homerow row justify-content-center mb-5 flex-row-reverse">
                 <div className="col-md-6 align-self-center">
                     <div className="d-flex justify-content-center">
