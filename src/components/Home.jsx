@@ -2,7 +2,7 @@ import gradpic1 from '/images/gradpic1.jpg'
 
 const Home = () => {
     return (
-        <section className="home border">
+        <section className="home">
             <div className="homerow row justify-content-center mb-5 flex-row-reverse">
                 <div className="col-md-6 align-self-center">
                     <div className="d-flex justify-content-center">
@@ -11,11 +11,11 @@ const Home = () => {
                 </div>
                 <div className="col-md-6 align-self-center">
                     <div className="d-flex justify-content-center">
-                        <div className="align-self-center ms-3 me-4">
-                            <i className="bi bi-github fs-3"></i><br />
-                            <i className="bi bi-linkedin fs-3"></i><br />
-                            <i className="bi bi-facebook fs-3"></i><br />
-                            <i className="bi bi-instagram fs-3"></i>
+                        <div className="d-flex flex-column align-self-center ms-3 me-4">
+                            <i className="bi bi-github fs-3 my-1"></i>
+                            <i className="bi bi-linkedin fs-3 my-1"></i>
+                            <i className="bi bi-facebook fs-3 my-1"></i>
+                            <i className="bi bi-instagram fs-3 my-1"></i>
                         </div>
                         <div>
                             <small className="text-secondary fw-bold">Hello !</small>
