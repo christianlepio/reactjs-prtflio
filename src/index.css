@@ -13,6 +13,10 @@ header .brnd {
   height: 89vh;
 }
 
+.home .desc {
+  text-align: justify !important;
+}
+
 .home .homerow {
   height: 75vh;
 }
@@ -53,7 +57,7 @@ header .brnd {
 }
 
 .project .tech-stack{
-  height: 1em;
+  height: 1.5em;
 }
 
 .project .desc {

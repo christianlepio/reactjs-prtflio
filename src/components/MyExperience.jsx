@@ -17,7 +17,7 @@ const MyExperience = () => {
 
                 {/* Frontend Technologies */}
 
-                <div className="col-md-4 p-3 expdiv shadow border-top border-5 rounded-4">
+                <div className="col-md-4 p-3 expdiv shadow border-top border-3 rounded-4">
                     <div className="d-flex justify-content-between align-items-center mb-5">
                         <div className="d-flex justify-content-start">
                             <i className="fa-solid fa-laptop-code lh-base fs-2 text-primary align-self-center"></i>
@@ -65,7 +65,7 @@ const MyExperience = () => {
 
                 {/* Backend technologies */}
 
-                <div className="col-md-4 p-3 expdiv shadow border-top border-5 rounded-4">
+                <div className="col-md-4 p-3 expdiv shadow border-top border-3 rounded-4">
                     <div className="d-flex justify-content-between align-items-center mb-5">
                         <div className="d-flex justify-content-start">
                             <i className="fa-solid fa-server lh-base fs-2 text-primary align-self-center"></i>
@@ -113,7 +113,7 @@ const MyExperience = () => {
 
                 {/* Tools */}
 
-                <div className="col-md-4 p-3 expdiv shadow border-top border-5 rounded-4">
+                <div className="col-md-4 p-3 expdiv shadow border-top border-3 rounded-4">
                     <div className="d-flex justify-content-between align-items-center mb-5">
                         <div className="d-flex justify-content-start">
                             <i className="fa-solid fa-screwdriver-wrench lh-base fs-2 text-primary align-self-center"></i>
