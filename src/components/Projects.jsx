@@ -151,7 +151,7 @@ const Projects = () => {
                                     </div>
                                     <div className="d-flex flex-column mt-3">
                                         <div className="d-flex justify-content-center">
-                                            <h5 className='h5 text-secondary'>{proj.title}</h5>
+                                            <h5 className='h5'>{proj.title}</h5>
                                         </div>     
                                         <div className="d-flex justify-content-center">
                                             <small className='text-secondary'>{proj.type}</small>
@@ -162,7 +162,7 @@ const Projects = () => {
                                             ))}
                                         </div>
                                         <div className="d-flex justify-content-center mt-4">
-                                            <p className='fs-6 text-secondary mx-4 desc'>{proj.description}</p>
+                                            <p className='fs-6 mx-4 desc'>{proj.description}</p>
                                         </div>
                                         <div className="d-flex justify-content-start mx-4 mt-3 pb-2">
                                             <a href={proj.demoLink} className='btn btn-primary rounded-3'><i className="bi bi-eye"></i> Demo</a>
@@ -175,7 +175,7 @@ const Projects = () => {
                 }
                 <div className="d-flex flex-column align-items-center justify-content-center">
                     <p className='text-secondary mt-5'><small>. . . See more projects in my Repositories . . .</small></p>
-                    <a href="https://github.com/christianlepio?tab=repositories" className="text-secondary fs-6 mb-5"><u className="fw-bold"><i className="fa-solid fa-link"></i>christianlepio</u></a>
+                    <a href="https://github.com/christianlepio?tab=repositories" className="fs-6 mb-5"><u className="fw-bold"><i className="fa-solid fa-link"></i>christianlepio</u></a>
                 </div>
             </div>
         </section>

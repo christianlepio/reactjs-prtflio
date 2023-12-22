@@ -20,8 +20,8 @@ const Home = () => {
                         <div>
                             <small className="text-secondary fw-bold">Hello !</small>
                             <h1 className="h1 fw-bold my-name">I'm Ryan Christian</h1>
-                            <p className="fs-5 fw-bold text-secondary">Full-Stack Developer</p>
-                            <p className="fs-6 text-secondary desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sapiente in accusantium, quod pariatur molestias culpa necessitatibus eius perspiciatis dicta asperiores amet accusamus qui ad veniam perferendis placeat officia ab?</p>
+                            <p className="fs-5 fw-bold text-primary">Full-Stack Developer</p>
+                            <p className="fs-6 desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sapiente in accusantium, quod pariatur molestias culpa necessitatibus eius perspiciatis dicta asperiores amet accusamus qui ad veniam perferendis placeat officia ab?</p>
                             <a href='mailto:rylepio79@gmail.com' className="btn btn-primary rounded-3"><i className="bi bi-send"></i> Send Email</a>
                         </div>
                     </div>

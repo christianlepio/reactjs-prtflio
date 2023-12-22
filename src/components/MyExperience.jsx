@@ -21,7 +21,7 @@ const MyExperience = () => {
                     <div className="d-flex justify-content-between align-items-center mb-5">
                         <div className="d-flex justify-content-start">
                             <i className="fa-solid fa-laptop-code lh-base fs-2 text-primary align-self-center"></i>
-                            <h5 className="h5 align-self-end ms-2 text-secondary">Front-end</h5>
+                            <h5 className="h5 align-self-end ms-2">Frontend</h5>
                         </div>
                         <div className="d-flex justify-content-end">
                             <small><i className="bi text-danger me-1 bi-circle-fill"></i></small>
@@ -69,7 +69,7 @@ const MyExperience = () => {
                     <div className="d-flex justify-content-between align-items-center mb-5">
                         <div className="d-flex justify-content-start">
                             <i className="fa-solid fa-server lh-base fs-2 text-primary align-self-center"></i>
-                            <h5 className="h5 align-self-end ms-3 text-secondary">Back-end</h5>
+                            <h5 className="h5 align-self-end ms-3">Backend</h5>
                         </div>
                         <div className="d-flex justify-content-end">
                             <small><i className="bi text-danger me-1 bi-circle-fill"></i></small>
@@ -117,7 +117,7 @@ const MyExperience = () => {
                     <div className="d-flex justify-content-between align-items-center mb-5">
                         <div className="d-flex justify-content-start">
                             <i className="fa-solid fa-screwdriver-wrench lh-base fs-2 text-primary align-self-center"></i>
-                            <h5 className="h5 align-self-end ms-3 text-secondary">Tools</h5>
+                            <h5 className="h5 align-self-end ms-3">Tools</h5>
                         </div>
                         <div className="d-flex justify-content-end">
                             <small><i className="bi text-danger me-1 bi-circle-fill"></i></small>
