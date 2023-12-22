@@ -6,7 +6,7 @@ const Header = () => {
                 <div className="container-fluid">
                     <div className="d-flex justify-content-between">
                         <div className='align-self-center'>
-                            <span className="fs-5 fw-bold text-primary brnd" href="#">RYDEV.</span>
+                            <span className="fs-5 fw-bold text-secondary brnd" href="#">RYDEV.</span>
                         </div>
                         <div className='d-flex justify-content-end'>
                             <i className='bi bi-brightness-low-fill text-warning lh-lg fs-6 mx-2 align-self-center'></i> &nbsp;
