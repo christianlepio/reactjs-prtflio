@@ -6,7 +6,7 @@ import jira from '/images/Jira.png'
 
 const MyExperience = () => {
     return (
-        <section className="experience py-5">
+        <section className="experience py-5 mb-5">
             <div className="d-flex justify-content-center">
                 <h2 className="h2 fw-bold text-center">Technical Skills</h2>
             </div>

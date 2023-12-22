@@ -135,7 +135,7 @@ const Projects = () => {
             <div className="d-flex justify-content-center">
                 <small className="text-center mb-3 text-secondary">Here are few of my worked projects</small>
             </div>
-            <div className="container px-3 mt-5">
+            <div className="container px-2 mt-5">
                 {
                     project.length > 0 ? (
                         project.map((proj, i) => (

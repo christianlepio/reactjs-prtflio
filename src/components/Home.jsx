@@ -1,6 +1,8 @@
 import gradpic1 from '/images/gradpic1.jpg'
 
 const Home = () => {
+    const description = "I'm a SAP ABAP consultant and full-stack web developer. I occasionally work as a freelance dev when it suits my schedule. Software development is my passion, and I love to convert coffee into logic. I am highly enthusiastic about my work and committed to it. I have obtained the knowledge, skills, and abilities to ensure the success of your project."
+
     return (
         <section className="home">
             <div className="homerow row justify-content-center mb-5 flex-row-reverse">
@@ -21,7 +23,7 @@ const Home = () => {
                             <small className="text-primary fw-bold">Hello!</small>
                             <h1 className="h1 fw-bold my-name">I'm Ryan Christian</h1>
                             <p className="fs-5 fw-bold text-primary">Full-Stack Developer</p>
-                            <p className="fs-6 desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sapiente in accusantium, quod pariatur molestias culpa necessitatibus eius perspiciatis dicta asperiores amet accusamus qui ad veniam perferendis placeat officia ab?</p>
+                            <p className="fs-6 desc">{description.substring(0, 230)}. . . &nbsp; <a href='#aboutme'>Read more</a></p>
                             <a href='mailto:rylepio79@gmail.com' className="btn btn-primary rounded-3"><i className="bi bi-send"></i> Send Email</a>
                         </div>
                     </div>

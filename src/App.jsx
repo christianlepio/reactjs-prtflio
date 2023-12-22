@@ -1,3 +1,4 @@
+import AboutMe from './components/AboutMe'
 import Header from './components/Header'
 import Home from './components/Home'
 import MyExperience from './components/MyExperience'
@@ -13,6 +14,7 @@ function App() {
           <Home />
           <MyExperience />
           <Projects />
+          <AboutMe />
         </div>
       </main>
     </>
