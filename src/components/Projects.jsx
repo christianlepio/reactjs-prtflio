@@ -165,7 +165,7 @@ const Projects = () => {
                                             <p className='fs-6 mx-4 desc'>{proj.description}</p>
                                         </div>
                                         <div className="d-flex justify-content-start mx-4 mt-3 pb-2">
-                                            <a href={proj.demoLink} className='btn btn-primary rounded-3'><i className="bi bi-eye"></i> Demo</a>
+                                            <a href={proj.demoLink} className='btn btn-primary rounded-3 px-3'><i className="bi bi-eye"></i> Demo</a>
                                         </div>
                                     </div>
                                 </div>

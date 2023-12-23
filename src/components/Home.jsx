@@ -24,7 +24,7 @@ const Home = () => {
                             <h1 className="h1 fw-bold my-name">I'm Ryan Christian</h1>
                             <p className="fs-5 fw-bold text-primary">Full-Stack Developer</p>
                             <p className="fs-6 desc">{description.substring(0, 230)}. . . &nbsp; <a href='#aboutme'>Read more</a></p>
-                            <a href='mailto:rylepio79@gmail.com' className="btn btn-primary rounded-3"><i className="bi bi-send"></i> Send Email</a>
+                            <a href='mailto:rylepio79@gmail.com' className="btn btn-primary rounded-3 px-3"><i className="bi bi-send"></i> Send Email</a>
                         </div>
                     </div>
                 </div>
