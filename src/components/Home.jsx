@@ -1,3 +1,4 @@
+import TypeIt from 'typeit-react'
 import gradpic1 from '/images/gradpic1.jpg'
 
 const Home = () => {
@@ -22,7 +23,27 @@ const Home = () => {
                         <div>
                             <small className="text-primary fw-bold">Hello!</small>
                             <h1 className="h1 fw-bold my-name">I'm Ryan Christian</h1>
-                            <p className="fs-5 fw-bold text-primary">Full-Stack Developer</p>
+                            <p className="fs-5 fw-bold text-primary">
+                                <TypeIt
+                                    options={{ 
+                                        waitUntilVisible: true,
+                                        loop: true, 
+                                        lifelike: true, 
+                                        cursorChar: "_",
+                                        smartBackspace: true,
+                                    }}
+                                    getBeforeInit={(instance) => {
+                                        instance.type("Freelancer ")
+                                            .pause(3000).delete(11).pause(400)
+                                                .type("SAP ABAP Consultant ")
+                                                    .pause(4000).delete(20).pause(400)
+                                                        .type("Full-Stack Developer ")
+                                                            .pause(6000).delete(21).pause(400)
+                                        // Remember to return it!
+                                        return instance
+                                    }}
+                                />                                
+                            </p>
                             <p className="fs-6 desc">{description.substring(0, 230)}. . . &nbsp; <a href='#aboutme'>Read more</a></p>
                             <a href='mailto:rylepio79@gmail.com' className="btn btn-primary rounded-3 px-3"><i className="bi bi-send"></i> Send Email</a>
                         </div>
