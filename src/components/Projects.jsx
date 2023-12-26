@@ -174,7 +174,7 @@ const Projects = () => {
                     ) : null
                 }
                 <div className="d-flex flex-column align-items-center justify-content-center">
-                    <p className='text-secondary mt-5'><small>. . . See more projects in my Repositories . . .</small></p>
+                    <p className='text-secondary mt-4'><small>. . . See more projects in my Repositories . . .</small></p>
                     <a href="https://github.com/christianlepio?tab=repositories" className="fs-6 mb-5"><u className="fw-bold"><i className="fa-solid fa-link"></i>christianlepio</u></a>
                 </div>
             </div>
