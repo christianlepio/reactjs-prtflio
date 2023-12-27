@@ -26,7 +26,7 @@ const ScrollButton = () => {
             id="scrollUp"
             onClick={scrollToTop}
         >
-            <i className="bi h1 text-secondary bi-arrow-up-circle-fill"></i>
+            <i className="bi scroll-content text-secondary bi-arrow-up-circle-fill"></i>
         </a>
     )
 }

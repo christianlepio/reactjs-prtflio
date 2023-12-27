@@ -109,6 +109,10 @@ header .logoko {
   visibility: visible;
 }
 
+.scroll-content {
+  font-size: 3em;
+}
+
 ::-webkit-scrollbar {
   width: 5px;
 }
