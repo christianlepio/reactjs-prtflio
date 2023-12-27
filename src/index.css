@@ -126,7 +126,7 @@ header .logoko {
 .loader .loading_1{
   position: relative;
   width: 70%;
-  height: 2.9vmin;
+  height: 3.5vmin;
   border: 1px solid #0d6efd;
   border-radius: 10px;
   animation: turn 4s linear 1.75s infinite;
