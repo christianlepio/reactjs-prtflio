@@ -37,7 +37,7 @@ function App() {
           <>
             <Header />
             <main className='mx-3'>
-              <div className="container-fluid">
+              <div className="container">
                 <ScrollButton />
                 <Home />
                 <MyExperience />

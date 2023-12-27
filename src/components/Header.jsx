@@ -30,12 +30,12 @@ const Header = () => {
     return (
         <header id='headTop'>
             <nav className="mx-3 mt-2 py-3">
-                <div className="container-fluid">
+                <div className="container">
                     <div className="d-flex justify-content-between align-items-center" data-aos='fade-up'>
                         <div className='d-flex'>
                             <a href="../../index.html"><img className='logoko' src={logoko} alt={logoko} /></a>
                             <div className="d-flex align-items-center">
-                                <span className="fs-5 fw-bold ms-1 text-secondary brnd" href="#">RYDEV.</span>
+                                <span className="fs-5 fw-bold ms-1 text-primary brnd" href="#">RYDEV.</span>
                             </div>
                         </div>
                         <div className='d-flex justify-content-end'>
