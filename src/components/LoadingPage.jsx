@@ -15,7 +15,7 @@ const LoadingPage = () => {
                     src={logoko} 
                     width="77" 
                     height="77" 
-                    class="logoko" 
+                    className="logoko" 
                     alt={logoko} 
                 />
             </div>

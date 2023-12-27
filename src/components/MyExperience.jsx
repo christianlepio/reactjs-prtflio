@@ -7,17 +7,17 @@ import jira from '/images/Jira.png'
 const MyExperience = () => {
     return (
         <section className="experience py-5 mb-5">
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center" data-aos='zoom-in-up' data-aos-duration='1000'>
                 <h2 className="h2 fw-bold text-center">Technical Skills</h2>
             </div>
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center" data-aos='zoom-in-up' data-aos-duration='1500'>
                 <small className="text-center text-secondary">Languages I specialized</small>
             </div>
             <div className="row justify-content-evenly gy-4 mt-4">
 
                 {/* Frontend Technologies */}
 
-                <div className="col-md-4 p-3 expdiv shadow border-top border-3 rounded-4">
+                <div className="col-md-4 p-3 expdiv shadow border-top border-3 rounded-4" data-aos='fade-down' data-aos-duration='1900'>
                     <div className="d-flex justify-content-between align-items-center mb-5">
                         <div className="d-flex justify-content-start">
                             <i className="fa-solid fa-laptop-code lh-base fs-2 text-primary align-self-center"></i>
@@ -65,7 +65,7 @@ const MyExperience = () => {
 
                 {/* Backend technologies */}
 
-                <div className="col-md-4 p-3 expdiv shadow border-top border-3 rounded-4">
+                <div className="col-md-4 p-3 expdiv shadow border-top border-3 rounded-4" data-aos='fade-down' data-aos-duration='1000'>
                     <div className="d-flex justify-content-between align-items-center mb-5">
                         <div className="d-flex justify-content-start">
                             <i className="fa-solid fa-server lh-base fs-2 text-primary align-self-center"></i>
@@ -113,7 +113,7 @@ const MyExperience = () => {
 
                 {/* Tools */}
 
-                <div className="col-md-4 p-3 expdiv shadow border-top border-3 rounded-4">
+                <div className="col-md-4 p-3 expdiv shadow border-top border-3 rounded-4" data-aos='fade-down' data-aos-duration='500'>
                     <div className="d-flex justify-content-between align-items-center mb-5">
                         <div className="d-flex justify-content-start">
                             <i className="fa-solid fa-screwdriver-wrench lh-base fs-2 text-primary align-self-center"></i>

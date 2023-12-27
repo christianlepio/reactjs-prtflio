@@ -10,6 +10,9 @@ import SayHi from './components/SayHi'
 import ScrollButton from './components/ScrollButton'
 //context provider
 import { ThemeProvider } from './context/ThemeProvider'
+//AOS
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function App() {
   const [isLoading, setIsLoading] = useState(true)
@@ -19,6 +22,12 @@ function App() {
       setIsLoading(false)
     }, 3500);
   }, [])
+
+  useEffect(() => {
+    !isLoading 
+      ? AOS.init() 
+      : null
+  }, [isLoading])
 
   return (
       <ThemeProvider>

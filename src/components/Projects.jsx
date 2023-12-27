@@ -129,10 +129,10 @@ const Projects = () => {
 
     return (
         <section className='project py-5'>
-            <div className="d-flex justify-content-center mt-5">
+            <div className="d-flex justify-content-center mt-5" data-aos='zoom-in-up' data-aos-duration='1000'>
                 <h2 className="h2 fw-bold text-center">My Projects</h2>
             </div>
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center" data-aos='zoom-in-up' data-aos-duration='1500'>
                 <small className="text-center mb-3 text-secondary">Here are few of my worked projects</small>
             </div>
             <div className="container px-2 mt-5">
@@ -140,10 +140,10 @@ const Projects = () => {
                     project.length > 0 ? (
                         project.map((proj, i) => (
                             <div key={i} className={"row align-items-center justify-content-center border-top border-3 rounded-4 shadow mb-5 p-1 " + (i % 2 === 0 ? 'flex-row-reverse' : null)}>
-                                <div className="col-md-6 border shadow-sm p-2 rounded-4">
+                                <div className="col-md-6 border shadow-sm p-2 rounded-4" data-aos='zoom-in' data-aos-duration='1000'>
                                     <img className='img-fluid rounded-3' src={proj.projImg} alt={proj.title} />
                                 </div>
-                                <div className="col-md-6 p-3">
+                                <div className="col-md-6 p-3" data-aos='zoom-out' data-aos-duration='1800'>
                                     <div className="d-flex justify-content-start">
                                         <small><i className="bi text-danger me-1 bi-circle-fill"></i></small>
                                         <small><i className="bi text-warning me-1 bi-circle-fill"></i></small>
@@ -174,8 +174,12 @@ const Projects = () => {
                     ) : null
                 }
                 <div className="d-flex flex-column align-items-center justify-content-center">
-                    <p className='text-secondary mt-4'><small>. . . See more projects in my Repositories . . .</small></p>
-                    <a href="https://github.com/christianlepio?tab=repositories" className="fs-6 mb-5"><u className="fw-bold"><i className="fa-solid fa-link"></i>christianlepio</u></a>
+                    <div data-aos='zoom-in-up' data-aos-duration='1000'>
+                        <p className='text-secondary mt-4'><small>. . . See more projects in my Repositories . . .</small></p>
+                    </div>
+                    <div data-aos='zoom-in-up' data-aos-duration='1500'>
+                        <a href="https://github.com/christianlepio?tab=repositories" className="fs-6 mb-5"><u className="fw-bold"><i className="fa-solid fa-link"></i>christianlepio</u></a>
+                    </div>
                 </div>
             </div>
         </section>

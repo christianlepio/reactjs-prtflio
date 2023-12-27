@@ -3,10 +3,10 @@ import gradpic2 from '/images/gradpic2.jpg'
 const AboutMe = () => {
     return (
         <section className='aboutme py-5' id='aboutme'>
-            <div className="d-flex justify-content-center mt-5">
+            <div className="d-flex justify-content-center mt-5" data-aos='zoom-in-up' data-aos-duration='1000'>
                 <h2 className="h2 fw-bold text-center">About Me</h2>
             </div>
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center" data-aos='zoom-in-up' data-aos-duration='1500'>
                 <small className="text-center mb-3 text-secondary">Background Information</small>
             </div>
             <div className="container px-2 mt-5">
