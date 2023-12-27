@@ -1,6 +1,32 @@
+import { useContext, useEffect, useState } from 'react'
 import logoko from '/images/logoko.jpg'
+import ThemeContext from '../context/ThemeProvider'
 
 const Header = () => {
+    const {isDark, setIsDark, setTextColor} = useContext(ThemeContext)
+    const [btnBg, setBtnBg] = useState('')
+    const [themeIcon, setThemeIcon] = useState('')
+
+    const toggleTheme = () => {
+        setIsDark(prev => !prev)
+        document.querySelector("html").setAttribute('data-bs-theme', (isDark ? 'dark' : 'light'))
+    }
+
+    useEffect(() => {
+        localStorage.setItem('theme', isDark)
+        document.querySelector("html").setAttribute('data-bs-theme', (isDark ? 'dark' : 'light'))
+        
+        if (isDark) {
+            setTextColor('text-light')
+            setBtnBg('bg-warning border-warning')
+            setThemeIcon('bi bi-moon-stars')
+        } else {
+            setTextColor('text-secondary')
+            setBtnBg('')
+            setThemeIcon('bi-brightness-low-fill text-warning')
+        }
+    }, [isDark])
+
     return (
         <header>
             <nav className="mx-3 mt-2 py-3">
@@ -13,15 +39,15 @@ const Header = () => {
                             </div>
                         </div>
                         <div className='d-flex justify-content-end'>
-                            <i className='bi bi-brightness-low-fill text-warning lh-lg fs-6 mx-2 align-self-center'></i> &nbsp;
+                            <i className={'bi lh-lg fs-6 mx-2 align-self-center theme-icon ' + themeIcon}></i> &nbsp;
                             <div className='form-check form-switch'>                    
                                 <input 
-                                    className="toggleBtn form-check-input"
+                                    className={"toggleBtn form-check-input " + btnBg}
                                     type="checkbox" 
                                     role="switch" 
                                     id="flexSwitchCheckChecked" 
-                                    // onChange={toggleThemeBtn} 
-                                    // defaultChecked={isDarkMode} 
+                                    onChange={toggleTheme} 
+                                    defaultChecked={isDark} 
                                 />                    
                             </div>
                         </div>

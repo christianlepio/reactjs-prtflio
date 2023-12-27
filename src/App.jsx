@@ -6,7 +6,7 @@ import MyExperience from './components/MyExperience'
 import Projects from './components/Projects'
 import SayHi from './components/SayHi'
 //context provider
-import ThemeProvider from './context/ThemeProvider'
+import { ThemeProvider } from './context/ThemeProvider'
 
 function App() {
 
