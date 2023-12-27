@@ -12,7 +12,7 @@ const Projects = () => {
                 'https://camo.githubusercontent.com/5e8b6a8e8f07b3041792f726f0b2efd62a016ec24b743bf1e4a5c6e6423f86e3/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d626f6f747374726170',
                 zustand
             ],
-            description: 'Kanban boards use cards to represent work items and columns to represent each stage of the process. Cards flow through the workflow until completion. Workflows can be as simple as “To Do,” “In Progress,” “Complete,” or much more complex',
+            description: 'Kanban boards use cards to represent work items and columns to represent each stage of the process. Cards flow through the workflow until completion. Workflows can be as simple as “To Do,” “In Progress,” “Complete,” or much more complex.',
             demoLink: 'https://christianlepio.github.io/kanban-board/'
         },
         {

@@ -44,7 +44,7 @@ const Home = () => {
                                     }}
                                 />                                
                             </p>
-                            <p className="fs-6 desc">{description.substring(0, 230)}. . . &nbsp; <a href='#aboutme'>Read more</a></p>
+                            <p className="fs-6 desc">{description.substring(0, 220)} . . . &nbsp; <a href='#aboutme'>Read more</a></p>
                             <a href='mailto:rylepio79@gmail.com' className="btn btn-primary rounded-3 px-3"><i className="bi bi-send"></i> Send Email</a>
                         </div>
                     </div>

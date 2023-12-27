@@ -131,8 +131,8 @@ const MyExperience = () => {
                             <small className="text-center text-secondary">VS Code</small>
                         </div>
                         <div className="d-flex flex-column">
-                            <img className="img-fluid mx-3" src="https://skillicons.dev/icons?i=github" alt="github" />
-                            <small className="text-center text-secondary">Github</small>
+                            <img className="img-fluid mx-3 mt-1 abap" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" />
+                            <small className="text-center text-secondary">Postman</small>
                         </div>
                         <div className="d-flex flex-column align-self-end">
                             <img className="img-fluid mx-3" src="https://camo.githubusercontent.com/07e4f940b7e6239e342256bca5e95cd0b51406ae1570bba067ce3f1ccc76e350/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d62617368" alt="gitbash" />

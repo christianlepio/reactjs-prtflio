@@ -1,8 +1,10 @@
 import AboutMe from './components/AboutMe'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import Home from './components/Home'
 import MyExperience from './components/MyExperience'
 import Projects from './components/Projects'
+import SayHi from './components/SayHi'
 
 function App() {
 
@@ -15,8 +17,10 @@ function App() {
           <MyExperience />
           <Projects />
           <AboutMe />
+          <SayHi />
         </div>
       </main>
+      <Footer />
     </>
   )
 }
