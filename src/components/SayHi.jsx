@@ -10,11 +10,12 @@ const SayHi = () => {
             </div>
             <div className="container px-2 mt-5">
                 <div className="d-flex flex-column justify-content-center mb-5 px-1">
-                    <p className='align-self-center text-center mb-5 fs-6'>
-                        My inbox is always open, even if I'm not currently available for freelance project. <br />
-                        I'll do my best to respond to you, whether you have a <br /> query or simply just wishing to 
-                        say hi!
-                    </p>
+                    <div className="align-self-center get-in-touch">
+                        <p className='text-center mb-5 fs-6'>
+                            My inbox is always open, even if I'm not currently available for a freelance project. I'll do my best to respond to you, whether you have a query or simply want to say hi!
+                        </p>
+                    </div>
+                    
                     <div className="d-flex justify-content-center align-self-center align-items-center py-1">
                         <a href='mailto:rylepio79@gmail.com' className="btn btn-primary rounded-3 px-3"><i className="bi bi-send"></i> Say Hi</a>
                     </div>

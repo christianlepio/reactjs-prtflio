@@ -5,6 +5,7 @@ import Home from './components/Home'
 import MyExperience from './components/MyExperience'
 import Projects from './components/Projects'
 import SayHi from './components/SayHi'
+import ScrollButton from './components/ScrollButton'
 //context provider
 import { ThemeProvider } from './context/ThemeProvider'
 
@@ -16,6 +17,7 @@ function App() {
         <Header />
         <main className='mx-3'>
           <div className="container-fluid">
+            <ScrollButton />
             <Home />
             <MyExperience />
             <Projects />
