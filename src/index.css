@@ -39,12 +39,6 @@ header .logoko {
   font-size: 3.4em;
 }
 
-.home img {
-  width: 46.5vmin;
-  height: 48vmin;
-  border-radius: 360px;
-}
-
 .experience .expdiv {
   width: 25em;
   height: 23em;
@@ -76,10 +70,6 @@ header .logoko {
 
 .project .desc {
   text-align: justify !important;
-}
-
-.aboutme img {
-  height: 50vh;
 }
 
 .aboutme .desc {

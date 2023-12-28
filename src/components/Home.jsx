@@ -1,5 +1,5 @@
 import TypeIt from 'typeit-react'
-import gradpic1 from '/images/gradpic1.jpg'
+import gradpic1 from '/images/gradpic1.png'
 import { useEffect, useState, useContext } from 'react'
 //context
 import ThemeContext from '../context/ThemeProvider'
@@ -18,7 +18,7 @@ const Home = () => {
             <div className="homerow row justify-content-center mb-5 flex-row-reverse">
                 <div className="col-md-5 align-self-center">
                     <div className="d-flex justify-content-center" data-aos='zoom-in-up' data-aos-duration='3000'>
-                        <img src={gradpic1} className='img-fluid shadow' alt="gradpic1" />
+                        <img src={gradpic1} className='img-fluid rounded-circle' alt="gradpic1" />
                     </div>
                 </div>
                 <div className="col-md-7 align-self-center">

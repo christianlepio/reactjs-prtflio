@@ -1,4 +1,4 @@
-import gradpic2 from '/images/gradpic2.jpg'
+import gradpic2 from '/images/gradpic2.png'
 
 const AboutMe = () => {
     return (
@@ -13,7 +13,7 @@ const AboutMe = () => {
                 <div className="row justify-content-center gy-4 mb-5 p-1">
                     <div className="col-md-5 align-self-center">
                         <div className="d-flex justify-content-center" data-aos='fade-right' data-aos-duration='1500'>
-                            <img className='img-fluid shadow rounded-4' src={gradpic2} alt={gradpic2} />
+                            <img className='img-fluid rounded-circle' src={gradpic2} alt={gradpic2} />
                         </div>                    
                     </div>
                     <div className="col-md-7 align-self-center border-top border-top border-3 rounded-4 shadow" data-aos='fade-left' data-aos-duration='1500'>
