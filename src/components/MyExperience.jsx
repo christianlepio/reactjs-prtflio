@@ -13,7 +13,7 @@ const MyExperience = () => {
             <div className="d-flex justify-content-center" data-aos='zoom-in-up' data-aos-duration='1500'>
                 <small className="text-center text-secondary">Languages I specialized</small>
             </div>
-            <div className="row justify-content-evenly gy-4 mt-4">
+            <div className="row justify-content-evenly gy-4 mt-5">
 
                 {/* Frontend Technologies */}
 
