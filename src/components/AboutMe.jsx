@@ -45,7 +45,7 @@ const AboutMe = () => {
                                 </div>
                             </div>
                             <div className="d-flex justify-content-end mt-2">
-                                <a href='' className='btn btn-primary rounded-3 px-3'><i className="bi bi-download"></i> Resume</a>
+                                <a href='#' className='btn btn-primary rounded-3 px-3'><i className="bi bi-download"></i> Resume</a>
                             </div>
                         </div>
                     </div>
