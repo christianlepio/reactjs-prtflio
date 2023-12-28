@@ -9,7 +9,7 @@ const Footer = () => {
                 <a className="mx-4 text-light" href="" ><i className="bi bi-instagram fs-3"></i></a>
             </div>
             <div className="d-flex justify-content-center mb-2">
-                <h6 className="text-center mb-3 text-secondary h6">Copyright &copy; 2023 | Ryan Christian Lepio</h6>
+                <small className="text-center mb-3 text-secondary">Copyright &copy; 2023 | Ryan Christian Lepio</small>
             </div>
         </footer>
     )
