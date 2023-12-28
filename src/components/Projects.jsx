@@ -1,5 +1,6 @@
 import kanban from '/images/kanban.png'
 import zustand from '/images/zustand.png'
+import todolist from '/images/todo_list.jpg'
 
 const Projects = () => {
     const project = [
@@ -17,7 +18,7 @@ const Projects = () => {
         },
         {
             title: 'TODO List App', 
-            projImg: 'https://scontent.fmnl8-1.fna.fbcdn.net/v/t39.30808-6/380826961_3470968306495969_7049815772602103882_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeGEWonJXeAa9dNRd4PsO89BpKRllugXHAmkpGWW6BccCVnt6me3wUzOeLX5f_25TXlM2W4VDQ-bAucJ9rpi1XWT&_nc_ohc=jxAkcS_0QZQAX9WKFc7&_nc_ht=scontent.fmnl8-1.fna&oh=00_AfBuefqEL3bftAOekOTCicXAB3QjRGXsTNnP9mgowsskaA&oe=658A0DF0',
+            projImg: todolist,
             type: 'Web-based',
             techStacks: [
                 'https://camo.githubusercontent.com/86ce870479afdbfa7075d5b25bff8642dd4894a061c920ea9a49d3f77c74b55b/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d7265616374',

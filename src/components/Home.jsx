@@ -14,8 +14,8 @@ const Home = () => {
     }, [isDark])
 
     return (
-        <section className="home">
-            <div className="homerow row justify-content-center mb-5 flex-row-reverse">
+        <section className="home pb-5 pt-2 mb-5">
+            <div className="row justify-content-center mb-5 flex-row-reverse">
                 <div className="col-md-5 align-self-center">
                     <div className="d-flex justify-content-center" data-aos='zoom-in-up' data-aos-duration='3000'>
                         <img src={gradpic1} className='img-fluid rounded-circle' alt="gradpic1" />

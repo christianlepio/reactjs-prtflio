@@ -7,7 +7,7 @@ import jira from '/images/Jira.png'
 const MyExperience = () => {
     return (
         <section className="experience py-5 mb-5">
-            <div className="d-flex justify-content-center" data-aos='zoom-in-up' data-aos-duration='1000'>
+            <div className="d-flex justify-content-center mt-5" data-aos='zoom-in-up' data-aos-duration='1000'>
                 <h2 className="h2 fw-bold text-center">Technical Skills</h2>
             </div>
             <div className="d-flex justify-content-center" data-aos='zoom-in-up' data-aos-duration='1500'>
