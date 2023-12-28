@@ -25,7 +25,7 @@ const Home = () => {
                     <div className="d-flex justify-content-center">
                         <div className="d-flex flex-column align-self-center ms-3 me-4" data-aos='fade-right' data-aos-duration='3000'>
                             <a className={'my-1 text-secondary ' + (iconColor)} href="https://github.com/christianlepio"><i className="bi bi-github fs-3"></i></a>
-                            <a className={'my-1 text-secondary ' + (iconColor)} href=""><i className="bi bi-linkedin fs-3"></i></a>
+                            <a className={'my-1 text-secondary ' + (iconColor)} href="#"><i className="bi bi-linkedin fs-3"></i></a>
                             <a className={'my-1 text-secondary ' + (iconColor)} href="https://www.facebook.com/ryanchristyan.lepio"><i className="bi bi-facebook fs-3"></i></a>
                             <a className={'my-1 text-secondary ' + (iconColor)} href="https://www.instagram.com/l_e_p_i_o/?hl=en"><i className="bi bi-instagram fs-3"></i></a>
                         </div>
