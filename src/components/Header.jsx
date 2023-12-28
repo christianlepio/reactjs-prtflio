@@ -33,10 +33,15 @@ const Header = () => {
                 <div className="container">
                     <div className="d-flex justify-content-between align-items-center" data-aos='fade-up'>
                         <div className='d-flex'>
-                            <a href="../../index.html"><img className='logoko' src={logoko} alt={logoko} /></a>
-                            <div className="d-flex align-items-center">
-                                <span className="fs-5 fw-bold ms-1 text-primary brnd" href="#">RYDEV.</span>
-                            </div>
+                            {/* <a href="../../index.html"><img className='logoko' src={logoko} alt={logoko} /></a>
+                            <div className="d-flex align-items-center"> */}
+                                {/* <span className="fs-5 fw-bold ms-1 text-primary brnd" href="#">RYDEV.</span> */}
+                                
+                            <small><i className="bi text-danger me-1 bi-circle-fill"></i></small>
+                            <small><i className="bi text-warning me-1 bi-circle-fill"></i></small>
+                            <small><i className="bi text-success bi-circle-fill"></i></small>
+                        
+                            {/* </div> */}
                         </div>
                         <div className='d-flex justify-content-end'>
                             <i className={'bi lh-lg fs-6 mx-2 align-self-center theme-icon ' + themeIcon}></i> &nbsp;
