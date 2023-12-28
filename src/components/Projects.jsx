@@ -99,7 +99,7 @@ const Projects = () => {
             demoLink: 'https://github.com/christianlepio/colorgame_ni_ryan'
         },
         {
-            title: 'Rental Stall Data Management System', 
+            title: 'Rental Stall Management System', 
             projImg: 'https://christianlepio.github.io/prtflio/images/rental%20space.png',
             type: 'Web-based',
             techStacks: [
