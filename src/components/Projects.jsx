@@ -139,7 +139,7 @@ const Projects = () => {
                 {
                     project.length > 0 ? (
                         project.map((proj, i) => (
-                            <div key={i} className={"row align-items-center justify-content-center border-top border-3 rounded-4 shadow mb-5 p-1 " + (i % 2 === 0 ? 'flex-row-reverse' : null)}>
+                            <div key={i} className={"row align-items-center justify-content-center border-top border-3 rounded-4 shadow mb-5 p-3 " + (i % 2 === 0 ? 'flex-row-reverse' : null)}>
                                 <div className="col-md-6 border shadow-sm p-2 rounded-4" data-aos='zoom-in' data-aos-duration='1000'>
                                     <img className='img-fluid rounded-3' src={proj.projImg} alt={proj.title} />
                                 </div>
