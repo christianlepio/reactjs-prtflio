@@ -22,7 +22,7 @@ const LoadingPage = () => {
             <center>
                 <div className="loading_1 d-flex"></div>
             </center>
-            <div className="loading_2 fw-bold">Loading</div>
+            <div className="loading_2 fw-bold"> L &nbsp; o &nbsp; a &nbsp; d &nbsp; i &nbsp; n &nbsp; g </div>
         </div>
     )
 }
