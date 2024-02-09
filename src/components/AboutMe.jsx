@@ -28,7 +28,7 @@ const AboutMe = () => {
                             </div>
                             <br />
                             <p className='fs-6 desc'>
-                                I'm Ryan Christian, a SAP ABAP consultant and full-stack web developer. 
+                                I'm Ryan Christian, a SAP ABAP consultant and full-stack web/mobile app developer. 
                                 I occasionally work as a freelance dev when it suits my schedule. Software development is 
                                 my passion, and I love to convert coffee into logic. I am highly enthusiastic 
                                 about my work and committed to it. I have obtained the knowledge, skills, and 
