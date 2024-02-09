@@ -83,11 +83,11 @@ const MyExperience = () => {
                     </div>
                     <div className="d-flex justify-content-center align-items-center mb-4">
                         <div className="d-flex flex-column">
-                            <img className="img-fluid mx-3" src="https://camo.githubusercontent.com/15d91b1526dc4bc7312db29b376075f09479855c802b57d730a764847ee497c1/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d6e6f64656a73" alt="node js" />
+                            <img className="img-fluid mx-3" src="https://skillicons.dev/icons?i=nodejs" alt="node js" />
                             <small className="text-center text-secondary">Node JS</small>
                         </div>
                         <div className="d-flex flex-column">
-                            <img className="img-fluid mx-3" src="https://camo.githubusercontent.com/92a295910076b8f4b5baa465654123887e2179e74a00b91713a0122919cb7e13/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d65787072657373" alt="express js" />
+                            <img className="img-fluid mx-3" src="https://skillicons.dev/icons?i=express" alt="express js" />
                             <small className="text-center text-secondary">Express JS</small>
                         </div>
                         <div className="d-flex flex-column align-self-end">
@@ -95,17 +95,17 @@ const MyExperience = () => {
                             <small className="text-center text-secondary mt-2">PHP</small>
                         </div>
                         <div className="d-flex flex-column">
-                            <img className="img-fluid mx-3" src="https://camo.githubusercontent.com/5d4cc9b5c0d71ad996fcde82d2da8e4b598b4c5b524aaa2f59f726417918d062/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d6a617661" alt="java" />
+                            <img className="img-fluid mx-3" src="https://skillicons.dev/icons?i=java" alt="java" />
                             <small className="text-center text-secondary">Java</small>
                         </div>
                     </div>
                     <div className="d-flex justify-content-center align-items-center mb-4">
                         <div className="d-flex flex-column">
-                            <img className="img-fluid mx-3" src="https://camo.githubusercontent.com/ffb54a4ebda0615bb3b2ca2c620fbd516cda7b0d855b31b86a5648b00ac2cbcc/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d6d6f6e676f6462" alt="mongo db" />
+                            <img className="img-fluid mx-3" src="https://skillicons.dev/icons?i=mongodb" alt="mongo db" />
                             <small className="text-center text-secondary">Mongo DB</small>
                         </div>
                         <div className="d-flex flex-column">
-                            <img className="img-fluid mx-3" src="https://camo.githubusercontent.com/4004b2f7fa33c1cd04eef3e56a050c29463f9d613d00506464a4151edfca3d73/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d6d7973716c" alt="mysql" />
+                            <img className="img-fluid mx-3" src="https://skillicons.dev/icons?i=mysql" alt="mysql" />
                             <small className="text-center text-secondary">MySQL</small>
                         </div>
                         <div className="d-flex flex-column">
