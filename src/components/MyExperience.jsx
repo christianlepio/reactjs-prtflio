@@ -31,34 +31,38 @@ const MyExperience = () => {
                     </div>
                     <div className="d-flex justify-content-center align-items-center mb-4">
                         <div className="d-flex flex-column">
-                            <img className="img-fluid mx-3" src="https://camo.githubusercontent.com/d5018e8d6194afbc0a7874bf55df5e7b0111f8abe4e622ae2200b124e33d6fe2/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d68746d6c" alt="html" />
+                            <img className="img-fluid mx-3" src="https://skillicons.dev/icons?i=html" alt="html" />
                             <small className="text-center text-secondary">HTML</small>
                         </div>
                         <div className="d-flex flex-column">
-                            <img className="img-fluid mx-3" src="https://camo.githubusercontent.com/0e09bd8aa8f06b2a1946dddff9415ba1df25f461852741979c5bb7bdc4860908/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d637373" alt="css" />
+                            <img className="img-fluid mx-3" src="https://skillicons.dev/icons?i=css" alt="css" />
                             <small className="text-center text-secondary">CSS</small>
                         </div>
                         <div className="d-flex flex-column">
-                            <img className="img-fluid mx-3" src="https://camo.githubusercontent.com/5e8b6a8e8f07b3041792f726f0b2efd62a016ec24b743bf1e4a5c6e6423f86e3/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d626f6f747374726170" alt="bootstrap" />
+                            <img className="img-fluid mx-3" src="https://skillicons.dev/icons?i=bootstrap" alt="bootstrap" />
                             <small className="text-center text-secondary">Bootstrap</small>
                         </div>
                         <div className="d-flex flex-column">
-                            <img className="img-fluid mx-3" src="https://camo.githubusercontent.com/a4199191bff0e00930a78bbcd5f4257c4db4efc3d4bf3b19ca16041751b4c1be/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d6a73" alt="vanilla js" />
+                            <img className="img-fluid mx-3" src="https://skillicons.dev/icons?i=js" alt="vanilla js" />
                             <small className="text-center text-secondary">JavaScript</small>
                         </div>
                     </div>
                     <div className="d-flex justify-content-center align-items-center mb-4">
                         <div className="d-flex flex-column">
-                            <img className="img-fluid mx-3" src="https://camo.githubusercontent.com/86ce870479afdbfa7075d5b25bff8642dd4894a061c920ea9a49d3f77c74b55b/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d7265616374" alt="react js" />
+                            <img className="img-fluid mx-3" src="https://skillicons.dev/icons?i=react" alt="react js" />
                             <small className="text-center text-secondary">React JS</small>
                         </div>
                         <div className="d-flex flex-column">
-                            <img className="img-fluid mx-3" src="https://camo.githubusercontent.com/2f25cee0fe06df3f71c647d8c72c656c38c83036796924da98030b3bb8878be0/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d7265647578" alt="redux" />
+                            <img className="img-fluid mx-3" src="https://skillicons.dev/icons?i=redux" alt="redux" />
                             <small className="text-center text-secondary">Redux</small>
                         </div>
                         <div className="d-flex flex-column">
                             <img className="img-fluid mx-3 zustand" src={zustand} alt="zustand" />    
                             <small className="text-center text-secondary">Zustand</small>
+                        </div>
+                        <div className="d-flex flex-column">
+                            <img className="img-fluid mx-3" src="https://skillicons.dev/icons?i=flutter" alt="flutter" />    
+                            <small className="text-center text-secondary">Flutter</small>
                         </div>
                     </div>
                 </div>
