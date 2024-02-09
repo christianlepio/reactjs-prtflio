@@ -131,7 +131,7 @@ const MyExperience = () => {
                     </div>
                     <div className="d-flex justify-content-center align-items-center mb-4">
                         <div className="d-flex flex-column">
-                            <img className="img-fluid mx-3" src="https://camo.githubusercontent.com/95ee0c74cccf4c61aca7784c67ad967623ee6bb906df94b4b2b36e841f086158/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d7673636f6465" alt="vscode" />
+                            <img className="img-fluid mx-3" src="https://skillicons.dev/icons?i=vscode" alt="vscode" />
                             <small className="text-center text-secondary">VS Code</small>
                         </div>
                         <div className="d-flex flex-column">
@@ -139,7 +139,7 @@ const MyExperience = () => {
                             <small className="text-center text-secondary">Postman</small>
                         </div>
                         <div className="d-flex flex-column align-self-end">
-                            <img className="img-fluid mx-3" src="https://camo.githubusercontent.com/07e4f940b7e6239e342256bca5e95cd0b51406ae1570bba067ce3f1ccc76e350/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d62617368" alt="gitbash" />
+                            <img className="img-fluid mx-3" src="https://skillicons.dev/icons?i=bash" alt="gitbash" />
                             <small className="text-center text-secondary">Git Bash</small>
                         </div>
                         <div className="d-flex flex-column">
@@ -161,7 +161,7 @@ const MyExperience = () => {
                             <small className="text-center text-secondary">Jira</small>
                         </div>
                         <div className="d-flex flex-column">
-                            <img className="img-fluid mx-3" src="https://camo.githubusercontent.com/fadb03c42e68e0e44e0b7001dda11c301e0d576242f41c0c8a8ecc0ac310d1a0/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d7073" alt="photoshop" />    
+                            <img className="img-fluid mx-3" src="https://skillicons.dev/icons?i=ps" alt="photoshop" />    
                             <small className="text-center text-secondary">Photoshop</small>
                         </div>
                     </div>
