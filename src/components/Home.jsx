@@ -5,7 +5,7 @@ import { useEffect, useState, useContext } from 'react'
 import ThemeContext from '../context/ThemeProvider'
 
 const Home = () => {
-    const description = "I'm a SAP ABAP consultant and full-stack web developer. I occasionally work as a freelance dev when it suits my schedule. Software development is my passion, and I love to convert coffee into logic. I am highly enthusiastic about my work and committed to it. I have obtained the knowledge, skills, and abilities to ensure the success of your project."
+    const description = "I'm a SAP ABAP consultant and full-stack web/mobile app developer. I occasionally work as a freelance dev when it suits my schedule. Software development is my passion, and I love to convert coffee into logic. I am highly enthusiastic about my work and committed to it. I have obtained the knowledge, skills, and abilities to ensure the success of your project."
     const {isDark, textColor} = useContext(ThemeContext)
     const [iconColor, setIconColor] = useState('text-dark')
 
